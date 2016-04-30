@@ -86,7 +86,7 @@
 <meta property="og:url" content="http://yoursite.com/2016/04/30/部署中的问题/部署中的问题.html">
 <meta property="og:site_name" content="xiaoq日志">
 <meta property="og:description" content="deploy每次输入帐号密码hexo d 传的时候每次都要输入用户名密码，在_config.yml下查找deploy中设置如下deploy:repo:ssh://github.com/username/username.github.io.git">
-<meta property="og:updated_time" content="2016-04-30T12:33:09.605Z">
+<meta property="og:updated_time" content="2016-04-30T12:43:41.016Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[部署HEXO遇到的问题]">
 <meta name="twitter:description" content="deploy每次输入帐号密码hexo d 传的时候每次都要输入用户名密码，在_config.yml下查找deploy中设置如下deploy:repo:ssh://github.com/username/username.github.io.git">
@@ -324,6 +324,8 @@
 <h2 id="快速上传"><a href="#快速上传" class="headerlink" title="快速上传"></a>快速上传</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy -g <span class="comment">#生成并发布</span></span><br><span class="line">hexo server -g <span class="comment">#生成在本地部署</span></span><br></pre></td></tr></table></figure>
 <h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><p>配置项需要在每个：后面加空格，否则会编译失败</p>
 <h2 id="next"><a href="#next" class="headerlink" title="next"></a>next</h2><p>使用next插件，许多功能都在主题的配置文件里面集成了。找到对应的参数修改就可以。<br>路径为 themes/Next/_config.yml，不需要在根路径下的 _config.yml里面加</p>
+<h2 id="public-definde"><a href="#public-definde" class="headerlink" title="public definde"></a>public definde</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">eval</span> <span class="string">"<span class="variable">$(ssh-agent -s)</span>"</span></span><br><span class="line">ssh-add `/.ssh/**_rsa</span><br></pre></td></tr></table></figure>
+<p>执行完上面这两句后 就不会再报 这个错误了<br>或者 安装git客户端 在客户端里面进行提交</p>
 
       
     </div>
@@ -496,7 +498,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#deploy每次输入帐号密码"><span class="nav-number">1.</span> <span class="nav-text">deploy每次输入帐号密码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#README-md被删除"><span class="nav-number">2.</span> <span class="nav-text">README.md被删除</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#快速上传"><span class="nav-number">3.</span> <span class="nav-text">快速上传</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#config-yml"><span class="nav-number">4.</span> <span class="nav-text">_config.yml</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#next"><span class="nav-number">5.</span> <span class="nav-text">next</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#deploy每次输入帐号密码"><span class="nav-number">1.</span> <span class="nav-text">deploy每次输入帐号密码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#README-md被删除"><span class="nav-number">2.</span> <span class="nav-text">README.md被删除</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#快速上传"><span class="nav-number">3.</span> <span class="nav-text">快速上传</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#config-yml"><span class="nav-number">4.</span> <span class="nav-text">_config.yml</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#next"><span class="nav-number">5.</span> <span class="nav-text">next</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#public-definde"><span class="nav-number">6.</span> <span class="nav-text">public definde</span></a></li></ol></div>
             
           </div>
         </section>
