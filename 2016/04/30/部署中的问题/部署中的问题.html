@@ -64,7 +64,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="hexo," />
 
 
 
@@ -80,19 +80,16 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="deploy每次输入帐号密码hexo d 传的时候每次都要输入用户名密码，在_config.yml下查找deploy中设置如下deploy:repo:ssh://github.com/username/username.github.io.git">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2016/04/29/hello-world/index.html">
-<meta property="og:site_name">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-04-30T09:18:38.686Z">
+<meta property="og:title" content="[部署HEXO遇到的问题]">
+<meta property="og:url" content="http://yoursite.com/2016/04/30/部署中的问题/部署中的问题.html">
+<meta property="og:site_name" content="xiaoq日志">
+<meta property="og:description" content="deploy每次输入帐号密码hexo d 传的时候每次都要输入用户名密码，在_config.yml下查找deploy中设置如下deploy:repo:ssh://github.com/username/username.github.io.git">
+<meta property="og:updated_time" content="2016-04-30T12:10:10.396Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="[部署HEXO遇到的问题]">
+<meta name="twitter:description" content="deploy每次输入帐号密码hexo d 传的时候每次都要输入用户名密码，在_config.yml下查找deploy中设置如下deploy:repo:ssh://github.com/username/username.github.io.git">
 
 
 
@@ -110,7 +107,7 @@ Quick">
   };
 </script>
 
-  <title> Hello World |  </title>
+  <title> [部署HEXO遇到的问题] | xiaoq日志 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -120,6 +117,15 @@ Quick">
 
 
 
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=55922514";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -141,7 +147,7 @@ Quick">
   <div class="custom-logo-site-title">
     <a href="/"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title"></span>
+      <span class="site-title">xiaoq日志</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
@@ -240,7 +246,7 @@ Quick">
             
             
               
-                Hello World
+                [部署HEXO遇到的问题]
               
             
           </h1>
@@ -252,19 +258,38 @@ Quick">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-29T18:58:53+08:00" content="2016-04-29">
-              2016-04-29
+            <time itemprop="dateCreated" datetime="2016-04-30T11:45:39+08:00" content="2016-04-30">
+              2016-04-30
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">hexo</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/04/29/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/29/hello-world/" itemprop="commentsCount"></span>
+                <a href="/2016/04/30/部署中的问题/部署中的问题.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/30/部署中的问题/部署中的问题.html" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -275,6 +300,11 @@ Quick">
           
           
 
+          
+              &nbsp; | &nbsp;
+              <span class="page-pv"><i class="fa fa-file-o"></i>
+              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+              </span>
           
         </div>
       </header>
@@ -287,15 +317,10 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <h2 id="deploy每次输入帐号密码"><a href="#deploy每次输入帐号密码" class="headerlink" title="deploy每次输入帐号密码"></a>deploy每次输入帐号密码</h2><p>hexo d 传的时候每次都要输入用户名密码，在_config.yml下查找deploy中设置如下<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">repo:ssh://github.com/username/username.github.io.git</span><br></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<h2 id="README-md被删除"><a href="#README-md被删除" class="headerlink" title="README.md被删除"></a>README.md被删除</h2><p>每次上传的时候readme.md文件都会被删除 在 配置文件中 找到skip-render<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">skip-render: [README.md]</span><br></pre></td></tr></table></figure></p>
+<p><a href="https://hexo.io/docs/configuration.html#Directory" target="_blank" rel="external">设置可参考官方API</a></p>
 
       
     </div>
@@ -314,18 +339,24 @@ Quick">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag">#hexo</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/04/29/hello-world/hello-world.html" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/04/30/部署中的问题/" rel="prev" title="[部署中的问题]">
-                [部署中的问题] <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -340,10 +371,10 @@ Quick">
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2016/04/29/hello-world/"
-     data-title="Hello World"
+        <div class="ds-share flat" data-thread-key="2016/04/30/部署中的问题/部署中的问题.html"
+     data-title="[部署HEXO遇到的问题]"
      data-content=""
-     data-url="http://yoursite.com/2016/04/29/hello-world/">
+     data-url="http://yoursite.com/2016/04/30/部署中的问题/部署中的问题.html">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -370,8 +401,8 @@ Quick">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/04/29/hello-world/"
-           data-title="Hello World" data-url="http://yoursite.com/2016/04/29/hello-world/">
+      <div class="ds-thread" data-thread-key="2016/04/30/部署中的问题/部署中的问题.html"
+           data-title="[部署HEXO遇到的问题]" data-url="http://yoursite.com/2016/04/30/部署中的问题/部署中的问题.html">
       </div>
     
   </div>
@@ -433,7 +464,7 @@ Quick">
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">1</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -462,7 +493,7 @@ Quick">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#deploy每次输入帐号密码"><span class="nav-number">1.</span> <span class="nav-text">deploy每次输入帐号密码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#README-md被删除"><span class="nav-number">2.</span> <span class="nav-text">README.md被删除</span></a></li></ol></div>
             
           </div>
         </section>
@@ -500,6 +531,22 @@ Quick">
 </div>
 
         
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+  
+  
+</div>
+
+
 
         
       </div>
@@ -608,6 +655,9 @@ Quick">
   
 
   
+<script type="text/javascript" async src="//push.zhanzhang.baidu.com/push.js">
+</script>
+
 
 </body>
 </html>
